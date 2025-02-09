@@ -11,9 +11,13 @@ The primary task was to clean the data by removing duplicates, standardizing the
 Action: The following actions were taken:
 
 Created staging tables for data manipulation and inserted data from the original table.
+
 Removed duplicate records using SQL queries with window functions.
+
 Standardized data by trimming whitespace and normalizing industry names.
+
 Handled null values by updating missing industries based on related records and removing records with both total laid-off and percentage laid-off as null.
+
 Performed exploratory data analysis by running various SQL queries to analyze key metrics such as total laid-off, percentage laid-off, and trends over time.
 
 Result:
